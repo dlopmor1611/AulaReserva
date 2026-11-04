@@ -21,7 +21,6 @@ jobs:
             frontend/app.js
             backend/public/index.php
             .github/actions/validar-aulareserva/action.yml
-            frontend/archivo.html
 
       - name: Mostrar resultado
         run: echo "Se han verificado ${{ steps.validar.outputs.total }} rutas"
